@@ -168,20 +168,6 @@ footer .copyright {
  
 /*----------------------------REUSE------------------------------------------*/
 
-/* .introduction-container {
-    display: flex;
-    padding: 8rem 1.2rem 3.2rem 1.2rem;
-    justify-content: space-between;
-    align-items: flex-end;
-    align-self: stretch;
-    gap: 10rem;
-}
-
-.introduction-container .intro-text {
-    max-width: 50vw;
-} */
-
-
 /*----------------------------CONTACT----------------------------------------*/
 .contact-container {
     display: flex;
@@ -248,8 +234,8 @@ footer .copyright {
 }
 
 .image-wrapper .description-pic {
-    width: 260px;
-    box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.25), 0 3.193px 15.964px 0 rgba(0, 0, 0, 0.05);;
+    width: 15vw;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 3.193px 15.964px 0 rgba(0, 0, 0, 0.05);;
 }
 
 /*----hovering shit-----*/
@@ -377,3 +363,5 @@ cursor: url('/assets/cursors/highlighter.png'), pointer;
 .message {
     padding: 2.4rem 0;
 }
+
+
