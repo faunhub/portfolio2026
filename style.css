@@ -290,7 +290,6 @@ footer .copyright {
     box-sizing: border-box;
     padding: 3.2rem 2.4rem;
     gap: 1.2rem;
-
     /* 1. Enable CSS Scroll Snapping */
     scroll-snap-type: x mandatory;
     
