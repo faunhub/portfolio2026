@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }} | default : works</title>
+
+  <meta name="description" content="{{ description | default: 'Selected UI/UX, product design, and digital experiences by Phuong Huynh.' }}">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://portfolio2026-liard-ten.vercel.app/{{ page.url }}">
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:description" content="{{ description | default: 'Selected UI/UX, product design, and digital experiences by Phuong Huynh.' }}">
+
+  <link rel="stylesheet" href="/styles/main.css">
+  <link rel="stylesheet" href="/styles/mobile.css">
+  <link rel="stylesheet" href="/styles/tablet.css">
+</head>
+<body>
+  <main>
+    <nav>
+      <header class="header"><a href="/index.html">phuong.archive</a></header>
+      <ul class="nav-bar">
+          <li class="nav-tab"><a href="/pages/works/">works</a></li>
+          <li class="nav-tab"><a href="/pages/vault/">the vault</a></li>
+          <li class="nav-tab"><a href="/pages/contact/">contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="project-container">
+      <aside class="project-leftbar">
+      <h2 class="heading-3">{{ title }}</h2>
+      <div class="description-container">
+        <div class="project-meta">
+          <p class="body black-box"> {{ year }}</p>
+          <p class="body"> {{ type }}</p>
+          <p class="body"> {{ role }}</p>
+        </div>
+        <p class="project-intro body">{{ introduction }}</p>
+      </div>
+      
+    </aside>
+    </div>
+
+    
+  </main>
+</body>
+</html>

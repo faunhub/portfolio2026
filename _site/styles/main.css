@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:ital,wght@0,100..900;1,100..900&family=Geist:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*----------------------------UNIVERSAL CSS----------------------------------*/
+html {
+    font-size: 62.5%; /* Reduces root from 16px to 10px */
+    background-color: #F5F5F5;
+    margin: 0;
+    padding: 0; 
+    min-height: 100vh; /* Keeps the overall canvas sizing stable */
+    color: #242424;
+    
+}
+
+header {
+    font-family: "Geist", sans-serif;
+    font-size: 2.4rem;
+    letter-spacing: -0.04em;
+    margin-bottom: 1.6rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000000; 
+}
+
+a:hover {
+    cursor: url('/assets/cursors/highlighter.png');
+}
+
+.display {
+    font-family: "Geist", sans-serif;
+    font-size: 5.2rem;
+    letter-spacing: -0.06em;
+    font-weight: 500;
+    line-height: 130%;
+}
+
+.heading-2 {
+    font-family: "Geist", sans-serif;
+    font-size: 3.6rem;
+    letter-spacing: -0.06em;
+    font-weight: 250;
+    margin: 0;
+}
+
+.heading-3 {
+    font-family: "Geist", sans-serif;
+    font-size: 2.4rem;
+    letter-spacing: -0.06em;
+    font-weight: 400;
+}
+
+.body {
+    font-family: "Geist Mono", monospace;
+    font-size: 1.4rem;
+    font-weight: 350;
+    letter-spacing: -0.04em;
+    line-height: 130%;
+}
+
+
+.body-2 {
+    font-family: "Geist Mono", monospace;
+    font-size: 1.3rem;
+    font-weight: 350;
+    letter-spacing: -0.04em;
+}
+
+.color-secondary {
+    color: #cdcdcd;
+}
+
+h1 {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+.black-box {
+    background-color: #242424;
+    color: #f5f5f5;
+    padding: 0.4rem 0.8rem;
+    width: fit-content;
+}
+/*----------------------------UNIVERSAL CSS----------------------------------*/
+
+/*----------------------------REUSE------------------------------------------*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding:  1.2rem 2.4rem 2.4rem 2.4rem;
+}
+
+nav .nav-bar {
+    padding: 0;
+    margin: 0;
+    font-family: "Geist Mono", monospace;
+    font-size: 1.4rem;
+    font-weight: 350;
+    letter-spacing: -0.04em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+nav .nav-tab {
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    width: fit-content;
+}
+
+nav .nav-tab::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FAF104;
+    z-index: -1;
+    
+    /* Anchor to the left so it expands left-to-right */
+    transform-origin: left center;
+    transform: scaleX(0);
+    
+    /* Smooth ease-in-out transition */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* 2. Expand the layer across on hover */
+nav .nav-tab:hover::before {
+    transform: scaleX(1);
+}
+
+.bolden {
+    font-weight: 700;
+}
+
+footer {
+    background-color: #FAF104;
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+}
+
+footer .contact {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0 3.2rem 0 3.2rem ;
+}
+
+footer .copyright {
+    display: flex;
+    align-items: center;
+    padding: 0 3.2rem 0 3.2rem ;
+
+}
+ 
+/*----------------------------REUSE------------------------------------------*/
+
+/*----------------------------CONTACT----------------------------------------*/
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contact-container .contact-row {
+    display: flex;
+    gap: 2.4rem;
+    border-bottom: 2.5px dashed #cdcdcd;
+    width: 50vw;
+    justify-content: space-between;
+}
+
+.contact-row h3 {
+    padding: 1.6rem 0rem;
+}
+
+/*----hovering shit-----*/
+.contact-list:hover .contact-row {
+    opacity: 0.3;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.contact-list .contact-row:hover {
+    opacity: 1;
+    cursor: url('/assets/cursors/highlighter.png'), pointer;
+}
+/*----hovering shit-----*/
+
+/*----------------------------CONTACT----------------------------------------*/
+
+/*------------------------------INDEX----------------------------------------*/
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 2.4rem 0;
+}
+
+.auto-layout-column {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 25vw;
+}
+
+.text-wrapper .skill-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.skill-list .skill-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-wrapper .description-pic {
+    width: 18vw;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 3.193px 15.964px 0 rgba(0, 0, 0, 0.05);;
+}
+
+/*----hovering shit-----*/
+.text-wrapper:hover div {
+    opacity: 0.3;
+    cursor: url('/assets/cursors/highlighter.png'), pointer;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.text-wrapper div:hover {
+    opacity: 1;
+}
+
+.skillset-container:hover .skill-list .skill-row {
+    opacity: 0.3;
+    cursor: url('/assets/cursors/highlighter.png'), pointer;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.skillset-container .skill-list .skill-row:hover {
+    opacity: 1;
+    background-color: #FAF104;
+}
+
+.image-wrapper .description-pic:hover {
+    rotate: -5deg;
+    transition: rotate 0.2s ease-in-out; 
+    cursor: url('/assets/cursors/highlighter.png'), pointer;
+}
+/*----hovering shit-----*/
+
+/*------------------------------INDEX----------------------------------------*/
+/*------------------------------WORKS----------------------------------------*/
+
+.works-container {
+    display: flex;
+    overflow-x: auto;
+    box-sizing: border-box;
+    padding: 3.2rem 2.4rem;
+    gap: 1.2rem;
+    /* 1. Enable CSS Scroll Snapping */
+    scroll-snap-type: x mandatory;
+    
+    /* 2. Enable fluid native momentum */
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+.works-container .works-card {
+    flex-shrink: 0;
+    width: 42rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+
+    /* 3. Snap each card cleanly to the center or start of the viewport */
+    scroll-snap-align: start;
+}
+.works-container .works-card:hover {
+cursor: url('/assets/cursors/highlighter.png'), pointer;
+}
+
+.works-card .image-wrapper {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1 / 1; 
+    overflow: hidden;
+}
+
+.works-card .image-wrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+}
+
+.works-card .description-text {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+
+.works-container::-webkit-scrollbar {
+    display: none;
+}
+
+.works-container {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/*---------hover----------*/
+.works-card .thumbnail-default {
+    z-index: 2; 
+    opacity: 1;
+    visibility: visible;
+}
+
+.works-card:hover .thumbnail-default {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.works-card:hover .thumbnail-hover {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.1);
+}
+
+.works-card .thumbnail-hover {
+    z-index: 1; 
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.02);
+}
+/*---------hover----------*/
+/*------------------------------WORKS----------------------------------------*/
+
+.message {
+    padding: 2.4rem 0;
+}
+
+/*------------------------------projects----------------------------------------*/
+
+.project-container {
+    padding: 3.6rem 0;
+}
+
+.project-container .project-leftbar {
+    display: flex;
+    flex-direction: column;
+    max-width: 25vw;
+}
+
+.project-leftbar .project-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.description-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3.6rem;
+}
