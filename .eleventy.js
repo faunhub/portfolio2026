@@ -3,6 +3,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("js");
   eleventyConfig.addPassthroughCopy("assets"); 
   eleventyConfig.addPassthroughCopy("router.js");
+  eleventyConfig.addPassthroughCopy("projects")
 
   return {
     dir: {
