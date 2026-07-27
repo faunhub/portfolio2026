@@ -1,4 +1,4 @@
 {
-    "cleanURLs": true,
-    "trailingslash": false
-}
+    "cleanUrls": true,
+    "trailingSlash": false
+  }
