@@ -63,5 +63,27 @@
         overflow: hidden;
         text-overflow: ellipsis;
     }
+    /*-----template-------*/
+
+    .project-container {
+        flex-direction: column;
+        gap: 36px;
+    }
+
+    .project-container .project-leftbar {
+        max-width: 100vw;
+        position: relative;
+        height: fit-content;
+        gap: 36px;
+        top: 0;
+    }
+
+    .project-leftbar .description-container {
+        gap: 0;
+    }
+
+    .project-container .project-rightbar {
+        width: 100%;
+    }
 }
 

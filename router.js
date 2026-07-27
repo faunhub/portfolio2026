@@ -3,17 +3,20 @@ document.addEventListener("DOMContentLoaded", () => {
     
     if (container) {
         container.addEventListener("wheel", (e) => {
-            // 1. If the user is swiping horizontally on a trackpad, let the browser handle it natively
+            // 1. If user is swiping horizontally on trackpad, let browser handle natively
             if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) {
                 return;
             }
 
-            // 2. If it's vertical scrolling (mouse wheel or vertical trackpad swipe):
+            // 2. Prevent normal vertical window scrolling
             e.preventDefault();
             
-            // Multiply deltaY to speed up the scroll rate (adjust 2.5 to preference)
-            const speedMultiplier = 4; 
-            container.scrollLeft += e.deltaY * speedMultiplier;
+            // 3. Perform horizontal scroll smoothly
+            const speedMultiplier = 3; 
+            container.scrollBy({
+                left: e.deltaY * speedMultiplier,
+                behavior: 'auto' // Use 'auto' for responsive wheel scrolling
+            });
         }, { passive: false });
     }
 });
