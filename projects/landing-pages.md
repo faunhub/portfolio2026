@@ -1,4 +1,5 @@
 ---
+permalink: /projects/landing-pages/index.html
 layout: project-layout.html
 title: landing pages
 year: 2025

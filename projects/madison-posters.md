@@ -1,4 +1,5 @@
 ---
+permalink: /projects/madison-posters/index.html
 layout: project-layout.html
 title: madison marathon series
 year: 2026

@@ -5,7 +5,11 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("projects");
   eleventyConfig.addPassthroughCopy("pages")
 
-
+  eleventyConfig.setTemplateFormats([
+      "md",
+      "html",
+      "njk"
+    ]);
   return {
     dir: {
       input: ".",          // Read from root directory

@@ -1,4 +1,5 @@
 ---
+permalink: /projects/scroll/index.html
 layout: project-layout.html
 title: for you scroll feature
 year: 2025

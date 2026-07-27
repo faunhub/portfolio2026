@@ -1,4 +1,5 @@
 ---
+permalink: /projects/sustainable-supply-chain/index.html
 layout: project-layout.html
 title: sustainable supply chain
 year: 2024
