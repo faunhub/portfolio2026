@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>for you scroll feature | works</title>
+
+  <meta name="description" content="Selected UI/UX, product design, and digital experiences by Phuong Huynh.">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://portfolio2026-liard-ten.vercel.app//projects/scroll/">
+  <meta property="og:title" content="for you scroll feature">
+  <meta property="og:description" content="Selected UI/UX, product design, and digital experiences by Phuong Huynh.">
+
+  <link rel="stylesheet" href="/styles/main.css">
+  <link rel="stylesheet" href="/styles/mobile.css">
+  <link rel="stylesheet" href="/styles/tablet.css">
+</head>
+<body>
+  <main>
+    <div class="project-container">
+      
+      <aside class="project-leftbar">
+        <nav>
+      <header class="header"><a href="/index.html">phuong.archive</a></header>
+      <ul class="nav-bar">
+          <li class="nav-tab"><a href="/pages/works/">works</a></li>
+          <li class="nav-tab"><a href="/pages/vault/">the vault</a></li>
+          <li class="nav-tab"><a href="/pages/contact/">contact</a></li>
+      </ul>
+    </nav>
+      
+      <div class="description-container">
+        <h2 class="heading-3">for you scroll feature</h2>
+        <div class="project-meta">
+          <p class="body black-box"> 2025</p>
+          <p class="body"> app feature design / ui design</p>
+          <p class="body"> ui designer</p>
+          <p class="project-intro body">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words</p>
+        </div>
+      </div>
+    </aside>
+
+    <aside class="project-rightbar">
+      <article class="project-content body">
+        
+      </article>
+    </aside>
+    </div>
+
+    
+  </main>
+  <footer>
+    <div class="contact">
+        <h6 class="body-2"><a href="">email</a></h6>
+        <h6 class="body-2">|</h6>
+        <h6 class="body-2"><a href="">let's collab</a></h6>
+    </div>
+    <div class="copyright">
+        <h6 class="body-2">© phuong huynh 2026</h6>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+  <script>
+    const lenis = new Lenis({
+    duration: 4,      /* Speed of scroll animation (higher = smoother/slower) */
+    easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), /* Easing curve */
+    smoothWheel: true,  /* Enables smooth momentum for mouse wheels */
+    });
+
+    function raf(time) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+    }
+    requestAnimationFrame(raf);
+  </script>
+</body>
+</html>
