@@ -1,5 +1,5 @@
 ---
-permalink: /projects/vita34/index.html
+permalink: /projects/vita34/
 layout: project-layout.html
 title: vita34 case study
 year: 2023

@@ -1,5 +1,5 @@
 ---
-permalink: /projects/avery-dennison/index.html
+permalink: /projects/avery-dennison/
 layout: project-layout.html
 title: avery dennison
 year: 2024
