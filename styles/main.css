@@ -72,6 +72,7 @@ a:hover {
     font-weight: 350;
     letter-spacing: -0.04em;
     line-height: 130%;
+    color: #6c6c6c;
 }
 
 
@@ -80,6 +81,7 @@ a:hover {
     font-size: 1.3rem;
     font-weight: 350;
     letter-spacing: -0.04em;
+    color: #6c6c6c;
 }
 
 .color-secondary {
@@ -427,5 +429,4 @@ cursor: url('/assets/cursors/highlighter.png'), pointer;
     padding: 12px 64px 12px 12px;
     max-width: 75%;
     border-left: 4px solid #242424;
-    border-radius: 180;
 }

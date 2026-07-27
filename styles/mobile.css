@@ -85,5 +85,14 @@
     .project-container .project-rightbar {
         width: 100%;
     }
+
+    .spaced-in {
+        max-width: 100%;
+        padding: 12px;
+    }
+
+    .sub-title-spacing {
+        padding: 12px 0;
+    }
 }
 
