@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const speedMultiplier = 3; 
             container.scrollBy({
                 left: e.deltaY * speedMultiplier,
-                behavior: 'auto' // Use 'auto' for responsive wheel scrolling
+                behavior: 'auto' 
             });
         }, { passive: false });
     }
