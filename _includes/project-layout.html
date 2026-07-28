@@ -13,6 +13,7 @@
   <meta property="og:title" content="{{ title }}">
   <meta property="og:description" content="{{ description | default: 'Selected UI/UX, product design, and digital experiences by Phuong Huynh.' }}">
 
+  <link rel="shortcut icon" href="/assets/icons/favicon.svg" type="image/x-icon">
   <link rel="stylesheet" href="/styles/main.css">
   <link rel="stylesheet" href="/styles/mobile.css">
   <link rel="stylesheet" href="/styles/tablet.css">
@@ -66,7 +67,7 @@
     const lenis = new Lenis({
     duration: 4,      /* Speed of scroll animation (higher = smoother/slower) */
     easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), /* Easing curve */
-    smoothWheel: true,  /* Enables smooth momentum for mouse wheels */
+    smoothWheel: true, 
     });
 
     function raf(time) {
