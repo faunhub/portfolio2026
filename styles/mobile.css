@@ -33,7 +33,7 @@
     }
     
     footer .contact {
-        padding: 0;
+        display: none;
     }
 
     footer .copyright {
