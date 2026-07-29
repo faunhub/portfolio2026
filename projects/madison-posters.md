@@ -10,8 +10,6 @@ introduction: "Contrary to popular belief, Lorem Ipsum is not simply random text
 
 <img src="/assets/images/madison-posters/YellowstoneThumbnail.png" alt="Landing page preview">
 
-<h3 class="heading-3 sub-title-spacing">niche posters</h3>
 <p class="spaced-in">Niche Posters is a poster series designed for promotion and newsletter for the Yellowstone Adventure Series Marathon races. Each poster is intended to promote the corresponding race events. </p>
 <img src="/assets/images/madison-posters/The-Series.gif" alt="Landing page preview">
-<h3 class="heading-3 sub-title-spacing">general posters</h3>
 <p class="spaced-in">Niche Posters is a poster series designed for promotion and newsletter for the Yellowstone Adventure Series Marathon races. Each poster is intended to promote the corresponding race events. </p>
