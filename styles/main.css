@@ -198,6 +198,10 @@ footer .copyright {
     border-bottom: 2.5px dashed #cdcdcd;
     width: 50vw;
     justify-content: space-between;
+    opacity: 0;
+    animation: staggerIn 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+  /* Multiplies index order to stagger start times */
+    animation-delay: calc(var(--order) * 120ms);
 }
 
 .contact-row h3 {
@@ -229,6 +233,19 @@ footer .copyright {
     display: flex;
     flex-direction: column;
     gap: 12px;
+    animation: fadeSlideUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    opacity: 0;
+}
+
+@keyframes fadeSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .text-wrapper {
@@ -246,11 +263,37 @@ footer .copyright {
 .skill-list .skill-row {
     display: flex;
     justify-content: space-between;
+
+    opacity: 0;
+    animation: staggerIn 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+  /* Multiplies index order to stagger start times */
+    animation-delay: calc(var(--order) * 120ms);
+}
+
+@keyframes staggerIn {
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
 }
 
 .image-wrapper .description-pic {
     width: 18vw;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 3.193px 15.964px 0 rgba(0, 0, 0, 0.05);;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 3.193px 15.964px 0 rgba(0, 0, 0, 0.05);
+    
+    height: auto;
+    clip-path: inset(0 100% 0 0);
+    animation: curtainReveal 1s cubic-bezier(0.77, 0, 0.175, 1) forwards;
+}
+
+@keyframes curtainReveal {
+  to {
+    clip-path: inset(0 0 0 0);
+  }
 }
 
 /*----hovering shit-----*/
@@ -268,6 +311,7 @@ footer .copyright {
     opacity: 0.3;
     cursor: url('/assets/cursors/highlighter.png'), pointer;
     transition: opacity 0.3s ease-in-out;
+    
 }
 
 .skillset-container .skill-list .skill-row:hover {
@@ -375,6 +419,10 @@ cursor: url('/assets/cursors/highlighter.png'), pointer;
 /*-------vault---------*/
 .message {
     padding: 2.4rem 0;
+    opacity: 0;
+    animation: staggerIn 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+  /* Multiplies index order to stagger start times */
+    animation-delay: calc(var(--order) * 120ms);
 }
 
 /*------------------------------projects-template--------------------------------*/
