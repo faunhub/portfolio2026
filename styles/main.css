@@ -318,13 +318,11 @@ footer .copyright {
 }
 
 .skillset-container .skill-list .skill-row:hover {
-    animation: none;
     opacity: 1;
     background-color: #FAF104;
 }
 
 .image-wrapper .description-pic:hover {
-    animation: none;
     rotate: -5deg;
     transition: rotate 0.2s ease-in-out; 
     cursor: url('/assets/cursors/highlighter.png'), pointer;
