@@ -210,11 +210,13 @@ footer .copyright {
 
 /*----hovering shit-----*/
 .contact-list:hover .contact-row {
+    animation: none;
     opacity: 0.3;
     transition: opacity 0.3s ease-in-out;
 }
 
 .contact-list .contact-row:hover {
+    animation: none;
     opacity: 1;
     cursor: url('/assets/cursors/highlighter.png'), pointer;
 }
@@ -234,7 +236,6 @@ footer .copyright {
     flex-direction: column;
     gap: 12px;
     animation: fadeSlideUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-    opacity: 0;
 }
 
 @keyframes fadeSlideUp {
@@ -264,7 +265,6 @@ footer .copyright {
     display: flex;
     justify-content: space-between;
 
-    opacity: 0;
     animation: staggerIn 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
   /* Multiplies index order to stagger start times */
     animation-delay: calc(var(--order) * 120ms);
@@ -298,16 +298,19 @@ footer .copyright {
 
 /*----hovering shit-----*/
 .text-wrapper:hover div {
+    animation: none;
     opacity: 0.3;
     cursor: url('/assets/cursors/highlighter.png'), pointer;
     transition: opacity 0.3s ease-in-out;
 }
 
 .text-wrapper div:hover {
+    animation: none;
     opacity: 1;
 }
 
 .skillset-container:hover .skill-list .skill-row {
+    animation: none;
     opacity: 0.3;
     cursor: url('/assets/cursors/highlighter.png'), pointer;
     transition: opacity 0.3s ease-in-out;
@@ -315,11 +318,13 @@ footer .copyright {
 }
 
 .skillset-container .skill-list .skill-row:hover {
+    animation: none;
     opacity: 1;
     background-color: #FAF104;
 }
 
 .image-wrapper .description-pic:hover {
+    animation: none;
     rotate: -5deg;
     transition: rotate 0.2s ease-in-out; 
     cursor: url('/assets/cursors/highlighter.png'), pointer;
