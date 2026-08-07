@@ -19,10 +19,10 @@ introduction: "Main Contribution: typographic design, photographic treatment and
 
 
 <h3 class="heading-3 sub-title-spacing">running kit</h3>
-<p class="spaced-in">The Event Credential page highlights Vietcetera’s events platform, which produces engaging experiences that connect brands, communities, and cultures through discussions and vibrant festivals. It serves as a hub for event credentials and information about Vietcetera’s live events and experiential programming. </p>
+
 <img src="/assets/images/madison-posters/Shirt-Mockup.png" alt="shirt mockup">
 <h3 class="heading-3 sub-title-spacing">poster series</h3>
-<p class="spaced-in">The Event Credential page highlights Vietcetera’s events platform, which produces engaging experiences that connect brands, communities, and cultures through discussions and vibrant festivals. It serves as a hub for event credentials and information about Vietcetera’s live events and experiential programming. </p>
+
 <img src="/assets/images/madison-posters/The-Series.png" alt="YellowStone Races">
 <img src="/assets/images/madison-posters/Untitled-3.png" alt="Poster1">
 <img src="/assets/images/madison-posters/Untitled-3-01.png" alt="Poster1">
