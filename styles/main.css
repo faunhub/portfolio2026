@@ -184,6 +184,9 @@ footer .copyright {
 
 }
 
+img {
+    margin: 0;
+}
 
 /*----------------------------CONTACT----------------------------------------*/
 .contact-container {
@@ -463,6 +466,7 @@ cursor: url('/assets/cursors/highlighter.png'), pointer;
 .project-rightbar {
     width: 60vw;
     scroll-behavior: smooth;
+    max-width: 1092px;
 }
 
 .project-rightbar .project-content img {
@@ -473,7 +477,6 @@ cursor: url('/assets/cursors/highlighter.png'), pointer;
 .project-content {
     display: flex;
     flex-direction: column;
-    gap: 16px;
 }
 
 .spaced-in {
