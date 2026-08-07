@@ -36,6 +36,10 @@ a:hover {
     cursor: url('/assets/cursors/highlighter.png');
 }
 
+iframe {
+    border-radius: 12px;
+}
+
 .display {
     font-family: "Geist", sans-serif;
     font-size: 5.2rem;
@@ -477,10 +481,11 @@ cursor: url('/assets/cursors/highlighter.png'), pointer;
 .project-content {
     display: flex;
     flex-direction: column;
-}
+ }
 
 .spaced-in {
-    padding: 12px 64px 12px 12px;
+    padding: 0px 64px 12px 12px;
     max-width: 75%;
     border-left: 4px solid #242424;
+    margin: 24px 0px;
 }
