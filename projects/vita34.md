@@ -10,7 +10,7 @@ introduction: "Vita34 is a case study school project between my university RMIT 
 
 <img src="/assets/images/vita34/vita34thumbnail.png" alt="Vita34 App preview">
 
-
+<img src="/assets/images/vita34/Overview.svg" alt="Vita34 App preview">
 <img src="/assets/images/vita34/Userflow.svg" alt="Vita34 App preview">
 
 <img src="/assets/images/vita34/Typo.svg" alt="Vita34 App preview">
