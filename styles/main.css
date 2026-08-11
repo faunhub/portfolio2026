@@ -470,7 +470,7 @@ cursor: url('/assets/cursors/highlighter.png'), pointer;
 .project-rightbar {
     width: 60vw;
     scroll-behavior: smooth;
-    max-width: 1092px;
+    max-width: 60%;
 }
 
 .project-rightbar .project-content img {

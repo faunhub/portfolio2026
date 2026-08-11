@@ -96,5 +96,11 @@
     .sub-title-spacing {
         padding: 12px 0;
     }
+
+    .project-rightbar {
+    width: 60vw;
+    scroll-behavior: smooth;
+    max-width: 100%;
+}
 }
 

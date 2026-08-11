@@ -10,4 +10,8 @@
     .contact-list .contact-row {
         width: 100%;
     }
+    .project-rightbar {
+    scroll-behavior: smooth;
+    max-width: 100%;
+    }
 }
