@@ -29,7 +29,7 @@ introduction: "Main Contribution: typographic design, photographic treatment and
 <img src="/assets/images/madison-posters/Untitled-3-02.png" alt="Poster1">
 <img src="/assets/images/madison-posters/Untitled-3-03.png" alt="Poster1">
 <img src="/assets/images/madison-posters/Untitled-3-04.png" alt="Poster1">
-<img src="/assets/images/madison-posters/Untitled-3-05.png" alt="Poster1">
+<img style ="margin: 24px 0"src="/assets/images/madison-posters/Untitled-3-05.png" alt="Poster1">
 
 
 
