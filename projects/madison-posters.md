@@ -33,4 +33,4 @@ introduction: "Main Contribution: typographic design, photographic treatment and
 
 
 
-[Live Project](https://www.yellowstoneadventureseries.com/)
+[ ↳ Live Project](https://www.yellowstoneadventureseries.com/)
