@@ -98,9 +98,9 @@
     }
 
     .project-rightbar {
-    width: 60vw;
+    width: 100vw;
     scroll-behavior: smooth;
     max-width: 100%;
-}
+    }
 }
 
