@@ -9,7 +9,7 @@ introduction: "Main Contribution: typographic design, photographic treatment and
 
 ---
 
-<img src="/assets/images/madison-posters/YellowstoneThumbnail.png" alt="Landing page preview">
+<img src="/assets/images/madison-posters/Thumbnail.png" alt="Landing page preview">
 
 
 
@@ -24,11 +24,7 @@ introduction: "Main Contribution: typographic design, photographic treatment and
 <h3 class="heading-3 sub-title-spacing">poster series</h3>
 
 <img style ="margin: 24px 0" src="/assets/images/madison-posters/The-Series.png" alt="YellowStone Races">
-<img style ="margin: 24px 0" src="/assets/images/madison-posters/Untitled-3.png" alt="Poster1">
-<img style ="margin: 24px 0" src="/assets/images/madison-posters/Untitled-3-01.png" alt="Poster1">
-<img style ="margin: 24px 0" src="/assets/images/madison-posters/Untitled-3-02.png" alt="Poster1">
-<img style ="margin: 24px 0" src="/assets/images/madison-posters/Untitled-3-03.png" alt="Poster1">
-<img style ="margin: 24px 0" src="/assets/images/madison-posters/Untitled-3-04.png" alt="Poster1">
+<img style ="margin: 24px 0" src="/assets/images/madison-posters/Promotions.png" alt="YellowStone Races">
 
 
 

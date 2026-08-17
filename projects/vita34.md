@@ -16,3 +16,7 @@ introduction: "Vita34 is a case study school project between my university RMIT 
 <img src="/assets/images/vita34/Typo.svg" alt="Vita34 App preview">
 <img src="/assets/images/vita34/Colors.svg" alt="Vita34 App preview">
 <img src="/assets/images/vita34/Screens.svg" alt="Vita34 App preview">
+<br>
+<br>
+ 
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1); width:100%" height="844" src="https://embed.figma.com/proto/hnirB6bbhAW4dPZmrrDEnS/Vita334-2026-Redesign?node-id=50-1043&p=f&viewport=-608%2C737%2C0.35&scaling=scale-down&content-scaling=fixed&starting-point-node-id=50%3A1043&page-id=0%3A1&embed-host=share" allowfullscreen></iframe>
