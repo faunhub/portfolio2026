@@ -11,3 +11,5 @@ introduction: "Shortform Scroll is a design project completed during my internsh
 <img src="/assets/images/for-you-scroll/ScrollThumbnail.webp" alt="scroll feature thumbnail">
 <img src="/assets/images/for-you-scroll/Overview-1.svg" alt="scroll feature case study">
 <img src="/assets/images/for-you-scroll/Overview-2.svg" alt="scroll feature case study">
+
+[ ↳ Link to Feature (Mobile Only)](https://vietcetera.com/vn/for-you)
