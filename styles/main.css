@@ -194,6 +194,7 @@ img {
     margin: 0;
 }
 
+
 /*----------------------------CONTACT----------------------------------------*/
 .contact-container {
     display: flex;
@@ -435,6 +436,30 @@ cursor: url('/assets/cursors/highlighter.png'), pointer;
     animation: staggerIn 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
   /* Multiplies index order to stagger start times */
     animation-delay: calc(var(--order) * 120ms);
+}
+
+.main-vault {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.main-vault .pop-link {
+    opacity: 0;
+    animation: staggerIn 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+  /* Multiplies index order to stagger start times */
+    animation-delay: calc(var(--order) * 120ms);
+}
+.pop-link {
+    padding: 1.6rem 2.8rem;
+    background-color: #e7e7e7;
+    border-radius: 100px;
+    width: fit-content;
+}
+
+.pop-link:hover {
+    cursor: url('/assets/cursors/highlighter.png'), pointer;
+    background-color: #FAF104;
 }
 
 /*------------------------------projects-template--------------------------------*/
