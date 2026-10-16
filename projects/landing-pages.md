@@ -3,6 +3,7 @@ permalink: /projects/landing-pages/
 layout: project-layout.html
 title: landing pages
 year: 2025
+status: production
 type: web design / ui design / ux research
 role: ui designer
 introduction: "This is a collection of landing pages that I designed during my internship for Vietcetera."

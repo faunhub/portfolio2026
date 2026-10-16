@@ -3,6 +3,7 @@ permalink: /projects/scroll/
 layout: project-layout.html
 title: for you scroll feature
 year: 2025
+status: production
 type: app feature design / ui design
 role: ui designer
 introduction: "Shortform Scroll is a design project completed during my internship at Vietcetera. The feature introduces a short-form scrolling experience on the Vietcetera app, similar to TikTok and YouTube Shorts, designed to boost engagement with existing content and deliver a new way for users to explore the platform."

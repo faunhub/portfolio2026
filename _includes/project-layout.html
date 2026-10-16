@@ -35,7 +35,10 @@
       <div class="description-container">
         <h2 class="heading-3">{{ title }}</h2>
         <div class="project-meta">
-          <p class="body black-box"> {{ year }}</p>
+          <div class="tags">
+            <p class="body black-box"> {{ year }}</p>
+            <p class="body outline-box"> {{ status }}</p>
+          </div>
           <p class="body"> {{ type }}</p>
           <p class="body"> {{ role }}</p>
           <p class="project-intro body">{{ introduction }}</p>

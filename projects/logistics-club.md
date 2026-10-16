@@ -3,6 +3,7 @@ permalink: /projects/logistics-club/
 layout: project-layout.html
 title: logistics club event material
 year: 2024
+status: production
 type: graphic design
 role: designer
 introduction: "Working as a graphic designer for RMIT University Vietnam Logistics Club, I have worked on branding and design materials for student events, including digital assets and printed materials."

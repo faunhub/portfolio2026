@@ -109,6 +109,14 @@ h3 {
     width: fit-content;
 }
 
+.outline-box {
+    border: 0.5px solid #242424;
+    
+    color: #242424;
+    padding: 0.4rem 1.2rem;
+    width: fit-content;
+}
+
 .sub-title-spacing {
     padding: 24px 0;
 }
@@ -515,4 +523,10 @@ cursor: url('/assets/cursors/highlighter.png'), pointer;
     max-width: 75%;
     border-left: 4px solid #242424;
     margin: 24px 0px;
+}
+
+.tags {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
 }
