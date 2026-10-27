@@ -4,6 +4,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("router.js");
   eleventyConfig.addPassthroughCopy("projects");
   eleventyConfig.addPassthroughCopy("pages")
+  eleventyConfig.addPassthroughCopy("scripts")
 
   eleventyConfig.setTemplateFormats([
       "md",
