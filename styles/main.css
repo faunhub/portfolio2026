@@ -152,6 +152,10 @@ nav .nav-tab {
     width: fit-content;
 }
 
+nav .nav-tab,nav a {
+    cursor: url('/assets/cursors/highlighter.png') 4 4, pointer;
+}
+
 nav .nav-tab::before {
     content: "";
     position: absolute;
@@ -182,6 +186,30 @@ footer {
     display: flex;
     justify-content: space-between;
     height: 4rem;
+
+}
+
+@media (hover: hover) and (pointer: fine) {
+    footer {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 50;
+        transform: translateY(100%);
+        transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+        cursor: url('/assets/cursors/highlighter.png') 4 4, pointer;
+    }
+
+    footer a,
+    footer a:hover {
+        cursor: inherit;
+    }
+
+    footer.open,
+    footer:focus-within {
+        transform: translateY(0);
+    }
 }
 
 footer .contact {
@@ -450,6 +478,7 @@ cursor: url('/assets/cursors/highlighter.png'), pointer;
     display: flex;
     flex-direction: column;
     gap: 12px;
+    padding-bottom: 4rem;
 }
 
 .main-vault .pop-link {
