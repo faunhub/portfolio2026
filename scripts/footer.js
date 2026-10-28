@@ -13,3 +13,14 @@ if (footer) {
     footer.classList.remove('open');
   });
 }
+
+const clean = (p) => p.replace(/index\.html$/, '').replace(/\.html$/, '').replace(/\/+$/, '') || '/';
+const here = clean(location.pathname);
+
+document.querySelectorAll('nav .nav-tab a').forEach((a) => {
+  const target = clean(new URL(a.href).pathname);
+  if (here === target || here.startsWith(target + '/')) {
+    a.closest('.nav-tab').classList.add('active');
+    a.setAttribute('aria-current', 'page');
+  }
+})

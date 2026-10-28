@@ -156,6 +156,7 @@ nav .nav-tab,nav a {
     cursor: url('/assets/cursors/highlighter.png') 4 4, pointer;
 }
 
+
 nav .nav-tab::before {
     content: "";
     position: absolute;
@@ -174,6 +175,11 @@ nav .nav-tab::before {
 }
 
 nav .nav-tab:hover::before {
+    transform: scaleX(1);
+}
+
+nav .nav-tab:hover::before,
+nav .nav-tab.active::before {
     transform: scaleX(1);
 }
 
@@ -392,15 +398,10 @@ img {
 
 .works-container .works-card {
     flex-shrink: 0;
-    width: 42rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1.2rem;
-
+    width: 36rem;
     scroll-snap-align: start;
 }
+
 .works-container .works-card:hover {
 cursor: url('/assets/cursors/highlighter.png'), pointer;
 }
@@ -408,7 +409,7 @@ cursor: url('/assets/cursors/highlighter.png'), pointer;
 .works-card .image-wrapper {
     position: relative;
     width: 100%;
-    aspect-ratio: 1 / 1; 
+    aspect-ratio: 3 / 4 ; 
     overflow: hidden;
     pointer-events: none;
     user-select: none;
